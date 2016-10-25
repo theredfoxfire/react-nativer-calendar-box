@@ -1,6 +1,6 @@
 {
   "name": "react-native-calendar-box",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-native calendar picker with box",
   "main": "lib/Calendar.js",
   "scripts": {
@@ -52,5 +52,5 @@
     "url": "https://github.com/theredfoxfire/react-nativer-calendar-box"
   },
   "homepage": "https://github.com/theredfoxfire/react-nativer-calendar-box",
-  "readme": "https://github.com/theredfoxfire/react-native-dropdown-modal/blob/master/README.md"
+  "readme": "https://github.com/theredfoxfire/react-nativer-calendar-box/blob/master/README.md"
 }
