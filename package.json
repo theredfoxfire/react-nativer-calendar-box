@@ -1,0 +1,56 @@
+{
+  "name": "react-native-calendar-box",
+  "version": "0.0.1",
+  "description": "react-native calendar picker with box",
+  "main": "lib/Calendar.js",
+  "scripts": {
+    "build": "rimraf lib && babel src --ignore '_*' --out-dir lib",
+    "prepublish": "npm run build",
+    "lint": "eslint --max-warnings 0 .",
+    "typecheck": "flow",
+    "test-src": "mocha src/__tests__/*.js src/**/__tests__/*.js",
+    "test": "npm run lint && npm run typecheck && npm run test-src"
+  },
+  "dependencies": {
+    "immutable-datetime": "^0.2.3",
+    "react-native-modal-select-option": "0.0.6",
+    "react-native-vector-icons": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-class-properties": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "enzyme": "^2.5.1",
+    "eslint": "^2.12.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-flow-vars": "^0.4.0",
+    "eslint-plugin-react": "^5.1.1",
+    "expect": "^1.20.1",
+    "flow-bin": "^0.27.0",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/theredfoxfire/react-nativer-calendar-box"
+  },
+  "keywords": [
+    "react-native",
+    "calendar",
+    "es6-class",
+    "box",
+    "picker"
+  ],
+  "author": "vizzlearn@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theredfoxfire/react-nativer-calendar-box"
+  },
+  "homepage": "https://github.com/theredfoxfire/react-nativer-calendar-box",
+  "readme": "https://github.com/theredfoxfire/react-native-dropdown-modal/blob/master/README.md"
+}
