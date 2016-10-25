@@ -1,6 +1,8 @@
 # react-native-calendar-box
 
-react-native-calendar-box is calendar picker with box
+react-native-calendar-box is calendar picker with box 
+
+available in npm [react-native-calendar-box](https://www.npmjs.com/package/react-native-calendar-box)
 
 ## install package from [npm](https://www.npmjs.com/)
 
