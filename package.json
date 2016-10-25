@@ -1,6 +1,6 @@
 {
   "name": "react-native-calendar-box",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react-native calendar picker with box",
   "main": "lib/Calendar.js",
   "scripts": {
@@ -44,6 +44,7 @@
     "calendar",
     "es6-class",
     "box",
+    "date",
     "picker"
   ],
   "author": "vizzlearn@gmail.com",
